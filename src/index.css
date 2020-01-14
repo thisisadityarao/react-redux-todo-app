@@ -1,0 +1,13 @@
+/* CSS RESET */
+
+@import-sanitize;
+
+audio,
+video {
+  display: inline-block;
+}
+
+/* Remove border for img inside <a> tags IE 10 */
+img {
+  border-style: none;
+}
