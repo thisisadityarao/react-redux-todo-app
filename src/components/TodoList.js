@@ -32,6 +32,7 @@ const List = styled.ul`
     display: inline-block;
     width: 100%;
     padding-left: 0.5rem;
+    padding-right: 0.5rem;
     line-height: 1.9;
   }
 `;
