@@ -4,6 +4,8 @@ import App from './App';
 import "./index.css";
 import { createGlobalStyle } from "styled-components";
 import * as serviceWorker from './serviceWorker';
+import { Provider } from 'react-redux';
+import store from './components/store/index';
 
 
 const GlobalStyle = createGlobalStyle`
@@ -15,7 +17,7 @@ const GlobalStyle = createGlobalStyle`
   body {
     height: 100%;
     width: 100%;
-    background-color: lightgoldenrodyellow;
+    background-color: #fff4d3;
   }
 `;
 
@@ -23,7 +25,9 @@ const GlobalStyle = createGlobalStyle`
 ReactDOM.render(
   <React.Fragment>
     <GlobalStyle />
-    <App />
+    <Provider store={store}>
+      <App />
+    </Provider>
   </React.Fragment>,
   document.getElementById("root")
 );
