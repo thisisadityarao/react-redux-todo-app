@@ -8,6 +8,7 @@ const Wrapper = styled.div`
   max-width: 768px;
   min-width: 360px;
   margin: 0 auto;
+  padding: 0 16px;
 `;
 
 const Header = styled.header`

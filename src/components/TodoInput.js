@@ -29,7 +29,7 @@ const Button = styled.button`
   border-radius: 0 4px 4px 0;
   outline: 0;
   cursor: pointer;
-  min-width: 80px;
+  min-width: 50px;
   font-weight: 700;
   font-size: 1.2rem;
   padding: 22px 18px;
