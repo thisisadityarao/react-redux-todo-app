@@ -18,9 +18,14 @@ const Input = styled.input`
   outline: 0;
   color: #a3a3a3;
   background: #fff;
-  font-size: 1.2rem;
-  padding: 22px 18px;
+  font-size: 1rem;
+  padding: 16px 8px;
   box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.1);
+
+  @media (min-width: 768px) {
+    font-size: 1.2rem;
+    padding: 22px 8px;
+  }
 `;
 
 const Button = styled.button`
@@ -29,16 +34,22 @@ const Button = styled.button`
   border-radius: 0 4px 4px 0;
   outline: 0;
   cursor: pointer;
-  min-width: 80px;
+  min-width: 50px;
   font-weight: 700;
-  font-size: 1rem;
-  padding: 22px 4px;
+  font-size: 0.8rem;
+  padding: 16px 8px;
   background: #e91e63;
   transition: all 200ms ease-in;
 
   &:hover,
   &:active {
     box-shadow: inset 0 0 10px 2px rgba(0, 0, 0, 0.2);
+  }
+
+  @media (min-width: 768px) {
+    min-width: 80px;
+    font-size: 1rem;
+    padding: 22px 4px;
   }
 `;
 
