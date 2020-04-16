@@ -1,5 +1,7 @@
 # React-Redux-ToDo-App
 
+[![Renovate Status](https://badges.renovateapi.com/github/thisisadityarao/react-redux-todo-app)](https://renovatebot.com/)
+
 This is a To-Do application created using React & Redux.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
